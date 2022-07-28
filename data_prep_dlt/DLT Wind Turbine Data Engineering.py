@@ -304,7 +304,7 @@ def apply_model(df_pandas: pd.DataFrame) -> pd.DataFrame:
     return return_df
   
 # Model mapping location
-model_directories_df = spark.table("pasa_demo.turbine_forecast_model")  
+model_directories_df = spark.table("iot_demo.turbine_forecast_model")  
 
 # COMMAND ----------
 
